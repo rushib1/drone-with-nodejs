@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+console.log("data");
 app.get('/', function (req, res) {
   res.status(200).send('ok');
 });
